@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Home"
+        android:layout_marginRight="330dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/mtrl_btn_transparent_bg_color"
+        android:textColor="@android:color/white"
+        android:layout_width="78.0dp"
+        android:layout_height="38.6dp"
+        android:id="@+id/bt0" />
+    <TextView
+        android:text="RANDOM TEXT"
+        android:textAlignment="center"
+        android:paddingTop="25dp"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold"
+        android:background="@color/mtrl_btn_transparent_bg_color"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="66.6dp"
+        android:id="@+id/tv1" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="120.0dp"
+        android:layout_marginVertical="15dp"
+        android:id="@+id/iv1" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="120.0dp"
+        android:layout_marginVertical="15dp"
+        android:id="@+id/iv2" />
+    <TextView
+        android:text="Interval: 5ms - 5 / 5s - 5000 "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="24.0dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:id="@+id/textView1" />
+    <EditText
+        android:inputType="text"
+        android:hint="Set Time Interval"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="41.4dp"
+        android:id="@+id/userInp" />
+    <Button
+        android:text="COUNTRY THEME"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="56.0dp"
+        android:id="@+id/bt1"/>
+    <Button
+        android:text="related items"
+        android:layout_marginHorizontal="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="56.0dp"
+        android:id="@+id/bt2" />
+    <Button
+        android:text="pause"
+        android:layout_marginHorizontal="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="56.0dp"
+        android:id="@+id/bt3" />
+</LinearLayout>
